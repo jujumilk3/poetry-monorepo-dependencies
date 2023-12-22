@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "lib/utils" // common library
+        },        
+        {
+            "path": "projects/internal_api/" // project1
+        },
+        {
+            "path": "projects/public_api/"  // project2
+        }
+    ],
+}
