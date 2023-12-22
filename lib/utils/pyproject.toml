@@ -1,9 +1,11 @@
 [tool.poetry]
-name = "utils"
+name = "common"
 version = "0.1.0"
 description = ""
 authors = ["jujumilk3 <jujumilk3@gmail.com>"]
-readme = "README.md"
+packages = [
+    { include = "common", from = "src" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"

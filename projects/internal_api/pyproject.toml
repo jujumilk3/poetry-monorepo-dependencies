@@ -4,10 +4,11 @@ version = "0.1.0"
 description = ""
 authors = ["jujumilk3 <jujumilk3@gmail.com>"]
 readme = "README.md"
-packages = [{include = "internal_api"}]
 
 [tool.poetry.dependencies]
+common = { path = "../../lib/utils/", develop = true }
 python = "^3.10"
+fastapi = "^0.105.0"
 
 
 [build-system]
