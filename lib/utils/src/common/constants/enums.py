@@ -1,4 +1,4 @@
-from enum import Enum, unique
+from enum import Enum
 
 
 class StringEnumMixin(str, Enum):
@@ -9,4 +9,3 @@ class StringEnumMixin(str, Enum):
 class OrderType(StringEnumMixin):
     ASC = "asc"
     DESC = "desc"
-    
